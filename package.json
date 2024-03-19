@@ -1,0 +1,19 @@
+{
+  "name": "openodin-server",
+  "version": "0.1.0",
+  "description": "OpenOdin server for general use",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "[ ! -e keyfile.json ] && { npx keygen >keyfile.json && printf 'Success: keyfile.json created\\n\\n'; } || { printf 'Error: keyfile.json already exists\\n\\n'; exit 1; }",
+    "server": "npx service conf/server.json conf/wallet.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/OpenOdin/openodin-server"
+  },
+  "author": "OpenOdin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "openodin": "^0.8.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "keyPairs": ["!../keyfile.json:.keyPair"],
+    "storage": {
+        "database": {
+            "driver": {
+                "sqlite": "data/nodes.sqlite"
+            },
+            "blobDriver": {
+                "sqlite": "data/blobs.sqlite"
+            }
+        }
+    }
+}
