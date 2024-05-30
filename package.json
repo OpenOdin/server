@@ -14,6 +14,6 @@
   "author": "OpenOdin",
   "license": "Apache-2.0",
   "dependencies": {
-    "openodin": "=0.8.6"
+    "openodin": "=0.8.8"
   }
 }
